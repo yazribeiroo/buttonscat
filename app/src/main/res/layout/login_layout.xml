@@ -18,31 +18,43 @@
         android:src="@drawable/logo" />
 
     <EditText
-        android:textSize="20sp"
-        android:paddingLeft="10sp"
+        android:id="@+id/edtLoginEmail"
+        android:paddingRight="10sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
+        android:drawableEnd="@drawable/baseline_alternate_email_24"
         android:hint="Insira seu e-mail :"
         android:inputType="textEmailAddress"
-        android:maxLength="50" />
+        android:maxLength="50"
+        android:paddingLeft="10sp"
+        android:textSize="20sp" />
 
     <EditText
-        android:textSize="20sp"
-        android:paddingLeft="10sp"
-        android:inputType="textPassword"
+        android:id="@+id/edtLoginSenha"
+        android:paddingRight="10sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_lock_24"
         android:hint="Insira sua senha :"
-        android:maxLength="50"/>
+        android:inputType="textPassword"
+        android:maxLength="50"
+        android:paddingLeft="10sp"
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/btnEntrar"
+        android:padding="15sp"
+        android:textSize="17sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Entrar" />
 
     <Button
+        android:id="@+id/btnCadastro"
+        android:padding="15sp"
+        android:textSize="17sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
